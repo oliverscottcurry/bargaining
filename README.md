@@ -7,7 +7,7 @@ This project is an interactive **bargaining simulation** inspired by evolutionar
 - If two randomly selected agents **demand more than the prize**, they get **nothing**.
 - Otherwise, they **keep what they demand** and reproduce based on their success.
 - Each new generation **inherits demand strategies** with some probability of mutation.
-- When a mutation occurs, the demand value changes by a random amount up to the mutation amount. For example, a mutation rate of .10 means that there is a 10% chance of a mutation in the demand of up to 10% of the prize total.
+  - When a mutation occurs, the demand value changes by a random amount up to the mutation amount. For example, a mutation rate of .10 means that there is a 10% chance of a mutation in the demand of up to 10% of the prize total.
 
 ---
 
@@ -27,7 +27,7 @@ This project is an interactive **bargaining simulation** inspired by evolutionar
 ---
 
 ## **How to Run**
-1. Navigate to ... or download `bargaining.html`.
+1. Navigate to ... or download `fairness.html`.
 2. Open the file in **any modern web browser** (Chrome, Firefox, Edge, etc.).
 3. The simulation will start when you click **"Start Simulation"**.
 4. Adjust sliders and observe **how strategies evolve over time**!
