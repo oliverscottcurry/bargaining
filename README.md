@@ -7,8 +7,8 @@ This project is an interactive **bargaining simulation** inspired by evolutionar
 - Two agents are **randomly selected** from the population.
 - Each agent **demands** a share of a prize.
 - If the sum of their demands is **more than** the total prize, then they both get **nothing**.
-- Otherwise, they **get what they demand** and reproduce based on their success.
-- Each new generation **inherits demand strategies** with some probability of mutation.
+- Otherwise, they **get what they demand**, and reproduce based on their success.
+- Each new generation **inherits demand strategies** from their parents, with some probability of mutation.
   - When a mutation occurs, the demand value changes by a random amount up to the mutation amount. (For example, a mutation rate of .10 means that there is a 10% chance of a mutation in the demand of a random anount up to 10% of the prize total.)
 - The chart (histogram) shows the **number of agents** making each demand.
 - The **'rolling median'** demand from the previous ten rounds is shown below.
