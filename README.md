@@ -3,11 +3,13 @@
 This project is an interactive **bargaining simulation** inspired by evolutionary game theory. The simulation models how strategies evolve over time – through mutation and selection – when haggling over a divisible prize. 
 
 ## **How It Works**
-- A **population of agents** makes **demands** for a prize.
-- If two randomly selected agents **demand more than the prize**, they get **nothing**.
-- Otherwise, they **keep what they demand** and reproduce based on their success.
+- Agents are haggling over a prize.
+- Two agents are **randomly selected** from the population.
+- Each agent **demands** a share of a prize.
+– If the sum of their demands is more than the total prize, then they both get **nothing**.
+- Otherwise, they **get what they demand** and reproduce based on their success.
 - Each new generation **inherits demand strategies** with some probability of mutation.
-  - When a mutation occurs, the demand value changes by a random amount up to the mutation amount. For example, a mutation rate of .10 means that there is a 10% chance of a mutation in the demand of up to 10% of the prize total.
+  - When a mutation occurs, the demand value changes by a random amount up to the mutation amount. (For example, a mutation rate of .10 means that there is a 10% chance of a mutation in the demand of a random anount up to 10% of the prize total.)
 
 ---
 
@@ -35,7 +37,7 @@ This project is an interactive **bargaining simulation** inspired by evolutionar
 ---
 
 ## **Credits**
-Developed by: Oliver Scott Curry (https://github.com/oliverscottcurry)
+Developed by: Oliver Scott Curry (https://github.com/oliverscottcurry) using Chat GPT
   
 Inspired by:
 
