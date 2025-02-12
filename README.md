@@ -12,7 +12,7 @@ This project is an interactive **bargaining simulation** inspired by evolutionar
   - When a mutation occurs, the demand value changes by a random amount up to the mutation amount. (For example, a mutation rate of .10 means that there is a 10% chance of a mutation in the demand of a random anount up to 10% of the prize total.)
 - The chart (histogram) shows the **number of agents** making each demand.
 - The **'rolling median'** demand from the previous ten rounds is shown below.
-- The results of the simulation show that a **sense of fairness** evolves spontaneously in bargaining situations; agents tend to demand (a little less than) half of the prize.
+- The results of the simulation show that a **sense of fairness** evolves spontaneously in bargaining situations; agents tend to demand (just under) half the prize.
 ---
 
 ## **Features**
