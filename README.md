@@ -44,6 +44,7 @@ Developed by: Oliver Scott Curry (https://github.com/oliverscottcurry) using Cha
 Inspired by:
 
 **Skyrms, B. (1996).** *Evolution of the Social Contract.* Cambridge University Press.
+
 **Wilensky, U. (1997).** *NetLogo Divide The Cake model.* Northwestern University.  
   [NetLogo Divide The Cake Model](http://ccl.northwestern.edu/netlogo/models/DivideTheCake)
 
